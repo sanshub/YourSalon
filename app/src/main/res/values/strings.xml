@@ -1,0 +1,134 @@
+<resources>
+    <string name="app_name">YourSaloon</string>
+    <string name="title_activity_dashboard">DashboardActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_maps">Map</string>
+
+
+    <string name="msg_sit_back">Sit back &amp; Relax! while we verify your mobile number</string>
+    <string name="msg_manual_otp">(Enter the OTP below in case if we fail to detect the SMS automatically)</string>
+    <string name="lbl_enter_otp">Enter OTP</string>
+    <string name="lbl_submit">SUBMIT</string>
+    <string name="lbl_cancel">CANCEL</string>
+
+    <string-array name="cities">
+        <item>Select City</item>
+        <item>Abha</item>
+        <item>Ad-Dilam</item>
+        <item>Al-Abwa</item>
+        <item>Al Artaweeiyah</item>
+        <item>Al Bukayriyah</item>
+        <item>Al Bahah</item>
+        <item>Al-Gweiiyyah</item>
+        <item>Al-Hareeq</item>
+        <item>Al-Saih</item>
+        <item>Al Jafr</item>
+        <item>Al-Khutt</item>
+        <item>Al Lith</item>
+        <item>Al Majmaah</item>
+        <item>Al Mikhwah</item>
+        <item>Al-Mubarraz</item>
+        <item>Al Mawain</item>
+        <item>Al-Namas</item>
+        <item>Al-Omran</item>
+        <item>Al-Oyoon</item>
+        <item>Al Qunfudhah</item>
+        <item>As Sulayyil</item>
+        <item>Ar Rass</item>
+        <item>Al-Ula</item>
+        <item>Al Wajh</item>
+        <item>Az Zaimah</item>
+        <item>Badr</item>
+        <item>Badr</item>
+        <item>Baljurashi</item>
+        <item>Bisha</item>
+        <item>Bareg</item>
+        <item>Buraydah</item>
+        <item>Buq a</item>
+        <item>Dammam</item>
+        <item>Dhahran</item>
+        <item>Dhurma</item>
+        <item>Dahaban</item>
+        <item>Diriyah</item>
+        <item>Duba</item>
+        <item>Dumat Al-Jandal</item>
+        <item>Dawadmi</item>
+        <item>Farasan city</item>
+        <item>Gatgat</item>
+        <item>Gerrha</item>
+        <item>Gurayat</item>
+        <item>Hautat Sudair</item>
+        <item>Habala</item>
+        <item>Hajrah</item>
+        <item>Haql</item>
+        <item>Harmah</item>
+        <item>Hail</item>
+        <item>Hotat Bani Tamim</item>
+        <item>Hofuf</item>
+        <item>Huraymila</item>
+        <item>Hafr Al-Batin</item>
+        <item>Jabal Umm al Ruus</item>
+        <item>Jalajil</item>
+        <item>Al Jawf</item>
+        <item>Jeddah</item>
+        <item>Jizan</item>
+        <item>Jizan Economic City</item>
+        <item>Jubail</item>
+        <item>Khafji</item>
+        <item>Khaybar</item>
+        <item>King Abdullah Economic City</item>
+        <item>Khamis Mushayt</item>
+        <item>Knowledge Economic City, Medina</item>
+        <item>Khobar</item>
+        <item>Layla</item>
+        <item>Lihyan</item>
+        <item>Mastoorah</item>
+        <item>Mecca</item>
+        <item>Medina</item>
+        <item>Muzahmiyya</item>
+        <item>Najran</item>
+        <item>Omloj</item>
+        <item>Qadeimah</item>
+        <item>Qatif</item>
+        <item>Qaisumah</item>
+        <item>Rabigh</item>
+        <item>Rafha</item>
+        <item>Ras Tanura</item>
+        <item>Riyadh</item>
+        <item>Riyadh Al-Khabra</item>
+        <item>Rumailah</item>
+        <item>Sabt Al Alaya</item>
+        <item>Sarat Abidah</item>
+        <item>Saihat</item>
+        <item>Safwa city</item>
+        <item>Sakakah</item>
+        <item>Sharurah</item>
+        <item>Shaqraa</item>
+        <item>Shaybah</item>
+        <item>Taif</item>
+        <item>Tabuk</item>
+        <item>Tanomah</item>
+        <item>Tarout</item>
+        <item>Tayma</item>
+        <item>Thadiq</item>
+        <item>Thuwal</item>
+        <item>Thuqbah</item>
+        <item>Turaif</item>
+        <item>Tabarjal</item>
+        <item>Udhailiyah</item>
+        <item>Um Al-Sahek</item>
+        <item>Unaizah</item>
+        <item>Uqair</item>
+        <item>Uyayna</item>
+        <item>Uyun AlJiwa</item>
+        <item>Wadi Al-Dawasir</item>
+        <item>Yanbu</item>
+        <item>Zulfi</item>
+    </string-array>
+
+</resources>

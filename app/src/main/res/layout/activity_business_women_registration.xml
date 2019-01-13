@@ -1,0 +1,178 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/gradient1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.1"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Business Women Registration"
+            android:layout_gravity="center"
+            android:id="@+id/sr"
+            android:textSize="25sp"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.9"
+        android:orientation="vertical">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:id="@+id/ciview"
+                    app:civ_border_width="2dp"
+                    app:civ_border_color="#FFFFFF"
+                    android:layout_gravity="center"
+                    android:src="@drawable/ic_add_circle_outline_black_24dp"
+                android:layout_margin="10dp"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Upload Profile Picture"
+                    android:textSize="15sp"
+                    android:textColor="#FFFFFF"/>
+
+                <EditText
+                    android:inputType="text"
+                    android:id="@+id/bwname"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_margin="5dp"
+                    android:hint="name"
+                    android:gravity="center"
+                    android:background="@drawable/border_white"/>
+
+                <EditText
+                    android:id="@+id/email"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_margin="5dp"
+                    android:hint="Email Id"
+                    android:gravity="center"
+                    android:background="@drawable/border_white"/>
+
+
+                <EditText
+                    android:inputType="textPassword"
+                    android:id="@+id/pass"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_margin="5dp"
+                    android:hint="Password"
+                    android:gravity="center"
+                    android:background="@drawable/border_white"/>
+
+                <EditText
+                    android:inputType="phone"
+                    android:id="@+id/phno"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_margin="5dp"
+                    android:hint="Phone No"
+                    android:gravity="center"
+                    android:background="@drawable/border_white"/>
+
+                <EditText
+                    android:inputType="number"
+                    android:id="@+id/ref_no"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_margin="5dp"
+                    android:hint="Reference Number"
+                    android:gravity="center"
+                    android:background="@drawable/border_white"/>
+
+
+
+                <Spinner
+                    android:id="@+id/city"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_margin="5dp"
+                    android:entries="@array/cities"
+                    android:hint="City"
+                    android:gravity="center"
+                    android:background="@drawable/border_white"/>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <EditText
+                        android:editable="false"
+                        android:id="@+id/location"
+                        android:layout_weight="0.85"
+                        android:layout_width="0dp"
+                        android:layout_height="40dp"
+                        android:layout_margin="5dp"
+                        android:hint="Location"
+                        android:gravity="center"
+                        android:background="@drawable/border_white"/>
+
+                    <Button
+                        android:id="@+id/location_picker"
+                        android:layout_weight="0.15"
+                        android:layout_width="0dp"
+                        android:layout_height="40dp"
+                        android:layout_margin="5dp"
+                        android:gravity="center"
+                        android:background="@drawable/ic_location_on_black_24dp"/>
+
+
+                </LinearLayout>
+
+
+                <Button
+                    android:id="@+id/next"
+                    android:layout_margin="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" NEXT "
+                    android:onClick="next"
+                    android:textSize="15sp"
+                    android:layout_gravity="right"
+                    android:background="@drawable/border_white"
+                    />
+
+
+
+            </LinearLayout>
+
+        </ScrollView>
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

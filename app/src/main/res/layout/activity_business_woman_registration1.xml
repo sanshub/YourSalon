@@ -1,0 +1,284 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/gradient1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.1"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Business Women Registration"
+            android:layout_gravity="center"
+            android:id="@+id/sr"
+            android:textSize="25sp"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.9"
+        android:orientation="vertical">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/ciview"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_gravity="center"
+                    android:layout_margin="10dp"
+                    android:src="@drawable/ic_add_circle_outline_black_24dp"
+                    app:civ_border_color="#FFFFFF"
+                    app:civ_border_width="2dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Upload Identity Card"
+                    android:textSize="15sp"
+                    android:textColor="#FFFFFF"/>
+
+
+                <TextView
+                    android:id="@+id/services"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:text="Select Services You Provide"
+                    android:textColor="#FFFFFF"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+
+
+                <LinearLayout
+                    android:layout_margin="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <CheckBox
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.5"
+                        android:id="@+id/makeup"
+                        android:text="Makeup"
+                        android:textSize="20sp"
+                        android:textColor="#FFFFFF"
+                        android:textStyle="bold"
+                        android:buttonTint="#FFFFFF"/>
+
+                    <CheckBox
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.5"
+                        android:id="@+id/hairstyles"
+                        android:text="Hair Styles"
+                        android:textSize="20sp"
+                        android:textColor="#FFFFFF"
+                        android:textStyle="bold"
+                        android:buttonTint="#FFFFFF" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_margin="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <CheckBox
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.5"
+                        android:id="@+id/bodycare"
+                        android:text="Bodycare"
+                        android:textSize="20sp"
+                        android:textColor="#FFFFFF"
+                        android:textStyle="bold"
+                        android:buttonTint="#FFFFFF"/>
+
+                    <CheckBox
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.5"
+                        android:id="@+id/hairtreatment"
+                        android:text="Hair Treatment"
+                        android:textSize="20sp"
+                        android:textColor="#FFFFFF"
+                        android:textStyle="bold"
+                        android:buttonTint="#FFFFFF"/>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_margin="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <CheckBox
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.5"
+                        android:id="@+id/hennadesign"
+                        android:text="Henna Design"
+                        android:textSize="20sp"
+                        android:textColor="#FFFFFF"
+                        android:textStyle="bold"
+                        android:buttonTint="#FFFFFF"/>
+
+                    <CheckBox
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.5"
+                        android:id="@+id/westrenbath"
+                        android:text="Western Bath"
+                        android:textSize="20sp"
+                        android:textColor="#FFFFFF"
+                        android:textStyle="bold"
+                        android:buttonTint="#FFFFFF"/>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_margin="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <CheckBox
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.5"
+                        android:id="@+id/haircut"
+                        android:text="Haircut"
+                        android:textSize="20sp"
+                        android:textColor="#FFFFFF"
+                        android:textStyle="bold"
+                        android:buttonTint="#FFFFFF"/>
+
+                    <CheckBox
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.5"
+                        android:id="@+id/wax"
+                        android:text="Wax"
+                        android:textSize="20sp"
+                        android:textColor="#FFFFFF"
+                        android:textStyle="bold"
+                        android:buttonTint="#FFFFFF"/>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_margin="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <CheckBox
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.5"
+                        android:id="@+id/eyebrows"
+                        android:text="Eye Brows"
+                        android:textSize="20sp"
+                        android:textColor="#FFFFFF"
+                        android:textStyle="bold"
+                        android:buttonTint="#FFFFFF"/>
+
+                    <CheckBox
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.5"
+                        android:id="@+id/massage"
+                        android:text="Massage"
+                        android:textSize="20sp"
+                        android:textColor="#FFFFFF"
+                        android:textStyle="bold"
+                        android:buttonTint="#FFFFFF"/>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_margin="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <CheckBox
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.5"
+                        android:id="@+id/hairprotein"
+                        android:text="Hair Protein"
+                        android:textSize="20sp"
+                        android:textColor="#FFFFFF"
+                        android:textStyle="bold"
+                        android:buttonTint="#FFFFFF"/>
+
+                    <CheckBox
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.5"
+                        android:id="@+id/photography"
+                        android:text="Photography"
+                        android:textSize="20sp"
+                        android:textColor="#FFFFFF"
+                        android:textStyle="bold"
+                        android:buttonTint="#FFFFFF"/>
+
+
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/register"
+                    android:layout_margin="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" REGISTER "
+                    android:onClick="register"
+                    android:textSize="15sp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/border_white"
+                    />
+
+
+
+            </LinearLayout>
+
+        </ScrollView>
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

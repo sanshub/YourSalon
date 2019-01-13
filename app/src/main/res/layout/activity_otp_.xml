@@ -1,0 +1,114 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/viewContainer"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="5dp"
+    android:background="@color/colorPrimary">
+
+
+    <LinearLayout
+        android:id="@+id/layout_otp"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/colorPrimary"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="25dp"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/ic_account_circle_black_24dp" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:gravity="center_horizontal"
+            android:paddingLeft="40dp"
+            android:paddingRight="40dp"
+            android:text="@string/msg_sit_back"
+            android:textColor="@android:color/white"
+            android:textSize="16dp" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="25dp"
+            android:gravity="center_horizontal"
+            android:padding="5dp"
+            android:paddingLeft="40dp"
+            android:paddingRight="40dp"
+            android:text="@string/msg_manual_otp"
+            android:textColor="@android:color/white"
+            android:textSize="12dp" />
+
+        <me.philio.pinentry.PinEntryView
+            android:id="@+id/inputOtp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            app:accentType="character"
+            app:digitWidth="40dp"
+            app:digitHeight="40dp"
+            app:digitBackground="@drawable/background_border"
+            app:digitTextSize="9sp"
+            app:mask="*"
+            app:numDigits="4"
+            app:pinAccentColor="@color/colorPrimaryDark"
+
+            app:pinInputType="number"
+
+            />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/btn_cacel"
+                android:layout_width="0dp"
+                android:layout_weight="0.5"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:background="@color/colorPrimaryDark"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:layout_marginRight="5dp"
+                android:text="@string/lbl_cancel"
+                android:textColor="@android:color/white"
+                android:textSize="14dp" />
+            <Button
+
+                android:id="@+id/btn_verify_otp"
+                android:layout_width="0dp"
+                android:layout_weight="0.5"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:background="@color/colorPrimaryDark"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:text="@string/lbl_submit"
+                android:textColor="@android:color/white"
+                android:textSize="14dp"
+                android:layout_marginLeft="5dp"
+                />
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+
+
+
+
+</RelativeLayout>

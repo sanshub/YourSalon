@@ -1,0 +1,128 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/gradient1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.1"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Customer Registration"
+            android:layout_gravity="center"
+            android:id="@+id/sr"
+            android:textSize="25sp"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.9"
+        android:orientation="vertical">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:id="@+id/ciview"
+                    app:civ_border_width="2dp"
+                    app:civ_border_color="#FFFFFF"
+                    android:layout_gravity="center"
+                    android:src="@drawable/add_profile"
+                android:layout_margin="10dp"
+                    />
+
+                <EditText
+                    android:id="@+id/Cnameet"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_margin="5dp"
+                    android:hint="Name"
+                    android:gravity="center"
+                    android:background="@drawable/border_white"
+                    android:inputType="text"/>
+
+                <EditText
+                    android:id="@+id/email"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_margin="5dp"
+                    android:hint="Email Id"
+                    android:gravity="center"
+                    android:background="@drawable/border_white"/>
+
+                <EditText
+                    android:inputType="textPassword"
+                    android:id="@+id/pass"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_margin="5dp"
+                    android:hint="Password"
+                    android:gravity="center"
+                    android:background="@drawable/border_white"/>
+
+                <EditText
+                    android:inputType="phone"
+                    android:id="@+id/phno"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_margin="5dp"
+                    android:hint="Phone No"
+                    android:gravity="center"
+                    android:background="@drawable/border_white"/>
+
+
+                <EditText
+                    android:id="@+id/city"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_margin="5dp"
+                    android:hint="City"
+                    android:gravity="center"
+                    android:background="@drawable/border_white"/>
+
+
+                <Button
+                    android:id="@+id/next"
+                    android:layout_margin="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" SUBMIT "
+                    android:onClick="submit"
+                    android:textSize="15sp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/border_white"
+                    />
+
+
+
+            </LinearLayout>
+
+        </ScrollView>
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="300dp"
+    android:orientation="vertical"
+    android:background="@drawable/gradient1">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:id="@+id/img_preview"
+        android:layout_margin="5dp"
+        android:layout_weight="0.8"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.2">
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:text="Cancel"
+            android:layout_marginRight="5dp"
+            android:layout_weight="0.5"
+            android:id="@+id/cancel"
+            android:background="#ffffff"
+            android:textColor="#c8076b"
+            android:layout_gravity="center"
+            android:layout_marginLeft="5dp"
+            />
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:text="Upload"
+            android:layout_weight="0.5"
+            android:layout_marginRight="5dp"
+            android:id="@+id/upload"
+            android:background="#ffffff"
+            android:textColor="#c8076b"
+            android:layout_gravity="center"/>
+    </LinearLayout>
+
+</LinearLayout>
